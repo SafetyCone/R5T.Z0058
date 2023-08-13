@@ -10,6 +10,7 @@ namespace R5T.Z0058
     [ValuesMarker]
     public partial interface IDotnetMajorVersions : IValuesMarker
     {
+        public IDotnetMajorVersion V2 => 2.ToDotnetMajorVersion();
         public IDotnetMajorVersion V6 => 6.ToDotnetMajorVersion();
     }
 }
