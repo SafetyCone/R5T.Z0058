@@ -15,5 +15,6 @@ namespace R5T.Z0058
         public IDotnetMajorVersion V5 => 5.ToDotnetMajorVersion();
         public IDotnetMajorVersion V6 => 6.ToDotnetMajorVersion();
         public IDotnetMajorVersion V7 => 7.ToDotnetMajorVersion();
+        public IDotnetMajorVersion V8 => 8.ToDotnetMajorVersion();
     }
 }
